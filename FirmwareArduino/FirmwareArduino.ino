@@ -59,8 +59,8 @@ void loop() {
 void printFull(String texto){
     
       lcd.setCursor(0, 0);
-      lcd.print(texto.substring(0,15));
+      lcd.print(texto.substring(0,16));
       lcd.setCursor(0, 1);
-      lcd.print(texto.substring(15,30));
+      lcd.print(texto.substring(16,32));
   
 }
