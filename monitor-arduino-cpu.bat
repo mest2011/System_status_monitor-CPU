@@ -1,0 +1,1 @@
+start /d "C:\Users\mest2\Desktop\Organizar\projetos\Arduino\Monitoramento de cpu\" npm start

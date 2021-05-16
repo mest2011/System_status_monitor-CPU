@@ -1,6 +1,6 @@
 const SerialPort = require("serialport");
 const Readline = SerialPort.parsers.Readline;
-const port = new SerialPort("COM10", {
+const port = new SerialPort("COM4", {
   baudRate: 9600,
 });
 const parser = new Readline();
